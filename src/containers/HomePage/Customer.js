@@ -22,7 +22,7 @@ import { changeLanguageApp } from '../../store/actions';
                 <div className='customer-container-content'>
                     <div className='top-content'>
                         <h1>
-                        KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI?
+                        <FormattedMessage id="customer.khachhang"/> 
                         </h1>
                     </div>
                     <div className='bottom-content'>
@@ -31,10 +31,9 @@ import { changeLanguageApp } from '../../store/actions';
                                 <div className='list-item-img'>
                                     <img src={test}/>
                                     <div className='list-item-title'>
-                                    <h5>" Kỳ nghỉ thật tuyệt !!! "</h5>
+                                    <h5><FormattedMessage id="customer.kynghi"/> </h5>
 
-                                    <p>Các thắng cảnh thật đẹp, khiến tôi không thể quên
-                                            được. Tôi rất hài lòng về dịch cụ của Kon Tum Travel</p>
+                                    <p><FormattedMessage id="customer.thangcanh"/></p>
                                             <span>Trường Giang
                                               <p>12-04-2021</p>  
                                             </span>
@@ -45,10 +44,8 @@ import { changeLanguageApp } from '../../store/actions';
                                 <div className='list-item-img'>
                                     <img src={hyen}/>
                                     <div className='list-item-title'>
-                                    <h5>" Kỳ nghỉ thật tuyệt !!! "</h5>
-
-                                    <p>Các thắng cảnh thật đẹp, khiến tôi không thể quên
-                                            được. Tôi rất hài lòng về dịch cụ của Kon Tum Travel</p>
+                                    <h5><FormattedMessage id="customer.kynghi"/> </h5>
+                                        <p><FormattedMessage id="customer.thangcanh"/></p>
                                             <span>Hoàng Yến 
                                               <p>12-04-2021</p>  
                                             </span>
@@ -59,10 +56,10 @@ import { changeLanguageApp } from '../../store/actions';
                                 <div className='list-item-img'>
                                     <img src={tthanh}/>
                                     <div className='list-item-title'>
-                                    <h5>" Kỳ nghỉ thật tuyệt !!! "</h5>
+                                    <h5><FormattedMessage id="customer.kynghi"/> </h5>
 
-                                    <p>Các thắng cảnh thật đẹp, khiến tôi không thể quên
-                                            được. Tôi rất hài lòng về dịch cụ của Kon Tum Travel</p>
+                                    <p><FormattedMessage id="customer.thangcanh"/></p>
+
                                             <span>Trấn Thành
                                               <p>12-04-2021</p>  
                                             </span>

@@ -21,32 +21,32 @@ import { changeLanguageApp } from '../../store/actions';
             <div className='add-content'>
                  <div className='add-top'>
                    <h3>
-                   Những Địa điểm du lịch tốt nhất
+
+                   <FormattedMessage id="traveladd.addrtravel"/>
                    </h3>
                    <p>
-                   Đây là những Địa điểm du lịch tốt nhất hiện nay của chúng tôi.
-                   <br/>Sẽ làm bạn hài lòng khi đăng ký những Địa điểm dưới đây.
+                   <FormattedMessage id="traveladd.title"/>
                    </p>
                 </div>
                 <div className='add-bottom'>
                     <div className='add-bottom-list'>
                         <div className='list-item'>
                              <img src={mden}/>
-                            <h3>Măng Đen</h3>
-                            <p>Giá:1,000,000đ</p>
-                            <button className='banner-buttom'> Xem Ngay</button>
+                            <h3>  <FormattedMessage id="traveladd.add"/></h3>
+                            <p>  <FormattedMessage id="traveladd.price"/></p>
+                            <button className='banner-buttom'> <FormattedMessage id="traveladd.btn"/></button>
                         </div>
                         <div className='list-item1'>
                              <img src={nhathogo}/>
-                            <h3>Nhà thờ gỗ</h3>
-                            <p>Giá:1,000,000đ</p>
-                            <button className='banner-buttom'> Xem Ngay</button>
+                            <h3> <FormattedMessage id="traveladd.add1"/></h3>
+                            <p><FormattedMessage id="traveladd.price1"/></p>
+                            <button className='banner-buttom'> <FormattedMessage id="traveladd.btn"/></button>
                         </div>
                         <div className='list-item2'>
                              <img src={cautreo}/>
-                            <h3>Cầu treo Kon Klor</h3>
-                            <p>Giá:1,000,000đ</p>
-                            <button className='banner-buttom'> Xem Ngay</button>
+                            <h3> <FormattedMessage id="traveladd.add2"/></h3>
+                            <p><FormattedMessage id="traveladd.price2"/></p>
+                            <button className='banner-buttom'> <FormattedMessage id="traveladd.btn"/></button>
                         </div>
                         
                     </div>

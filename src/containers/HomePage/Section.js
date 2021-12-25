@@ -21,13 +21,11 @@ import { changeLanguageApp } from '../../store/actions';
           <div className='section-out'>
 
             <div className='section-in'>
-                <h1>Địa điểm du lịch Kon Tum sang trọng</h1>
+                <h1><FormattedMessage id="sectionadd.addsang"/></h1>
                 <p>
-                Tour du lịch Kon Tum 4 ngày 3 đêm đưa du khách đến với một thành
-                                phố thuộc vùng Bắc Tây Nguyên, Việt Nam. Đây là trung tâm kinh tế, văn hoá, giáo dục, khoa
-                                học và công nghệ lớn của khu vực Tây Nguyên.
+                <FormattedMessage id="sectionadd.addtitle"/>
                 </p>
-                <button className='banner-buttom'> Xem Thêm</button>
+                <button className='banner-buttom1'>  <FormattedMessage id="sectionadd.seemore"/></button>
 
             </div>
           </div>

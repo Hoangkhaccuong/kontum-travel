@@ -23,14 +23,12 @@ import { BrowserRouter, Link } from 'react-router-dom';
                <div className='header-logo'>
                        </div>
                        <div className='header-logo1'>
-                       <Link to='home'>     Kon Tum </Link>
+                       <Link to='/'>Kon Tum </Link>
                        </div>
-                      
                    </div>
-                   
                    <div className='center-content'>
                         <div className='child-content'>
-                       <Link to='home'> <FormattedMessage id="home-header.HomePage"/> </Link>
+                       <Link to='/'> <FormattedMessage id="home-header.HomePage"/> </Link>
                         </div>
                         <div className='child-content'>
                        <Link to="/gioi-thieu"><FormattedMessage id="home-header.Introduce"/> </Link>

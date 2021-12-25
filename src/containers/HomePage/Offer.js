@@ -27,7 +27,7 @@ import { changeLanguageApp } from '../../store/actions';
             <div className='offer-container'>
                 <div className='offer-container-content'>
                     <div className='top-content'>
-                        <h2>CÁC ƯU ĐÃI TỐI NHẤT</h2>
+                        <h2><FormattedMessage id="offer.uudai"/></h2>
                     </div>
                     <div className='center-content'>
                         <div className='mangden-content'>
@@ -35,9 +35,9 @@ import { changeLanguageApp } from '../../store/actions';
                                 <img src={mden}/>
                             </div>
                             <div className='mangden-right'>
-                                <h2 >2,000,000đ</h2>
+                                <h2 ><FormattedMessage id="traveladd.price1"/></h2>
                                 <p>
-                                Địa điểm du lịch Măng Đen - Măng Đen sẽ đưa bạn đến thăm thung lũng Măng Đen yên bình trong sớm mai,
+                                <FormattedMessage id="offer.title"/>
                                 </p>
                                 <img src={post}/>
                                 <img src={sailboat}/>
@@ -52,9 +52,11 @@ import { changeLanguageApp } from '../../store/actions';
                                 <img src={song}/>
                             </div>
                             <div className='dakbla-right'>
-                                <h2 >2,000,000đ</h2>
+                            <h2 ><FormattedMessage id="traveladd.price1"/></h2>
                                 <p>
-                                Dòng sông Đăk Bla không chỉ là nguồn cung cấp nước và phù sa trù phú cho công tác sản xuất nông nghiệp của người dân mà còn là một điểm du lịch hấp dẫn đông đảo du khách gần xa tìm đến khi du lịch Kon Tum.                                </p>
+                                <FormattedMessage id="offer.title1"/>
+
+                                 </p>
                                 <img src={post}/>
                                 <img src={sailboat}/>
                                 <img src={compass}/>
@@ -70,9 +72,9 @@ import { changeLanguageApp } from '../../store/actions';
                                 <img src={catreo}/>
                             </div>
                             <div className='mangden-right'>
-                                <h2 >2,000,000đ</h2>
+                            <h2 ><FormattedMessage id="traveladd.price1"/></h2>
                                 <p>
-                                Nhắc đến các điểm tham quan nổi tiếng của du lịch Kon Tum, cầu treo Kon Klor - cây cầu nối liền hai bờ sông Đăk Bla huyền thoại cũng là một địa điểm không thể thiếu.                                </p>
+                                <FormattedMessage id="offer.title2"/>                                 </p>
                                 <img src={post}/>
                                 <img src={sailboat}/>
                                 <img src={compass}/>
@@ -86,9 +88,9 @@ import { changeLanguageApp } from '../../store/actions';
                                 <img src={nhathogo}/>
                             </div>
                             <div className='dakbla-right'>
-                                <h2 >2,000,000đ</h2>
+                            <h2 ><FormattedMessage id="traveladd.price1"/></h2>
                                 <p>
-                                Nhà thờ gỗ thật sự là một kiệt tác kiển trúc vô cùng độc đáo của du lịch Kon Tum mà chúng ta khó có thể tìm thấy ở nơi nào khác. Công trình này được thiết kế theo kiến trúc Roman.                                 </p>
+                                <FormattedMessage id="offer.title3"/>                                                                   </p>
                                 <img src={post}/>
                                 <img src={sailboat}/>
                                 <img src={compass}/>

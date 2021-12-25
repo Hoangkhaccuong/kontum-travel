@@ -24,7 +24,7 @@ import { changeLanguageApp } from '../../store/actions';
             <>
             <div className='hotel-content'>
                 <div className='top-content'>
-                    <h1>KHÁCH SẠN ĐƯỢC ƯA THÍCH NHẤT</h1>
+                    <h1><FormattedMessage id="hotel.uathich"/> </h1>
                 </div>
                 <div className='bottom-content'>
                 <div className='bottom-content-list'>

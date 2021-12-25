@@ -27,8 +27,7 @@ import { changeLanguageApp } from '../../store/actions';
                 </div>
                 <div className='logo-footer-center'>
                     <p>
-                    Kon Tum travel tự hào là một đơn vị tiêu biểu trong lĩnh vực tour du lịch đón nhận giải thưởng uy tín nhất dành cho cộng đồng doanh nghiệp Việt Nam.
-                    </p>
+                    <FormattedMessage id="footer.title"/>                     </p>
                 </div>
                 <div className='logo-footer-bottom'>
                     <img src={logo}/>
@@ -37,14 +36,14 @@ import { changeLanguageApp } from '../../store/actions';
                 </div>
                 </div>
                  <div className='infor-footer'>
-                    <h3>Bản Tin</h3>
+                    <h3> <FormattedMessage id="footer.infor"/>  </h3>
                     <div className='infor-footer-item'>
                     <div className='img-item'>
                         <img src={logoft}/>
                         </div>
                         <div className='title-item'>
                        <p>
-                       Địa điểm du lịch Xuân 2021
+                       <FormattedMessage id="footer.diadiem"/> 
                        </p>
                        <span>
                        01/01/2021
@@ -57,7 +56,7 @@ import { changeLanguageApp } from '../../store/actions';
                         </div>
                         <div className='title-item'>
                        <p>
-                       Địa điểm du lịch Xuân 2021
+                       <FormattedMessage id="footer.diadiem"/> 
                        </p>
                        <span>
                        01/01/2021
@@ -70,7 +69,7 @@ import { changeLanguageApp } from '../../store/actions';
                         </div>
                         <div className='title-item'>
                        <p>
-                       Địa điểm du lịch Xuân 2021
+                       <FormattedMessage id="footer.diadiem"/> 
                        </p>
                        <span>
                        01/01/2021
@@ -83,7 +82,7 @@ import { changeLanguageApp } from '../../store/actions';
                         </div>
                         <div className='title-item'>
                        <p>
-                       Địa điểm du lịch Xuân 2021
+                       <FormattedMessage id="footer.diadiem"/> 
                        </p>
                        <span>
                        01/01/2021
@@ -94,21 +93,22 @@ import { changeLanguageApp } from '../../store/actions';
                  <div className='tags-footer'>
                      <h3>TAGS</h3>
                         <div className='btn-tags' >
-                            <button>Măng Đen</button>
-                            <button>Nhà thờ gỗ</button>
+                            <button><FormattedMessage id="banner.MangDen"/></button>
+                            <button><FormattedMessage id="banner.woodenchurch"/></button>
+
                         </div>
                         <div className='btn-tags' >
                             <button>Kon Tum</button>
-                            <button>Sông Đăk Bla</button>
+                            <button><FormattedMessage id="banner.dakbla"/></button>
                         </div>
                         <div className='btn-tags' >
-                            <button>Cầu treo Kon Klor</button>
+                            <button><FormattedMessage id="banner.MangDen"/></button>
                         </div>
                 </div>
                  <div className='contact-footer'>
-                     <h3>LIÊN HỆ</h3>
+                     <h3> <FormattedMessage id="footer.contact"/>  </h3>
                         <ul> 
-                            <li>704 Phan Đình Phùng - Tp Kon Tum.</li>
+                            <li><FormattedMessage id="footer.add"/></li>
                             <li>+84 975 219 875</li>
                             <li>ktravel@gmail.com</li>
                             <li>http://ktumtravel.vn</li>
