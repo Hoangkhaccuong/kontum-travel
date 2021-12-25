@@ -1,0 +1,74 @@
+html {
+    font-size: 62.5%;
+}
+
+.hotel-content {
+    width: 100%;
+    height: 55rem;
+
+    .top-content {
+        width: 100%;
+        height: 20rem;
+
+        h1 {
+            padding-top: 7rem;
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .bottom-content {
+        width: 85%;
+        margin-left: 12rem;
+        height: 15rem;
+        display: flex;
+
+        .bottom-content-list {
+            display: flex;
+
+            .list-hotel,
+            .list-hotel1,
+            .list-hotel2,
+            .list-hotel3 {
+                width: 52%;
+                height: 100%;
+                margin-left: 5rem;
+
+                img {
+                    width: 100%;
+                }
+
+            }
+
+            .hotel-infor {
+                margin-left: 3rem;
+                width: 100%;
+
+                h3 {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #fa9e1b;
+                    margin-top: 1rem;
+                }
+
+                span {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #929191;
+                    margin-top: 2rem;
+                    
+    display: block;
+    margin-top: -0.7rem;
+
+
+                }
+            }
+        }
+    }
+}

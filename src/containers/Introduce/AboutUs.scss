@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%;
+}
+
+button.banner-buttom {
+        width: 16rem;
+        margin-left: 16rem;
+        margin-top: 3rem;
+        height: 4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        border: 1px solid;
+        border: none;
+        white-space: nowrap;
+        border-radius: 2rem;
+        color: white;
+        background: linear-gradient(to right, #FF6633, #3333FF, #FF6633);
+
+    &:hover {
+        background: linear-gradient(to right, #3333FF, #FF6633, #c26242);
+    }
+}
+
+.about-content {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+
+    .left-content {
+        width: 60%;
+        height: 100%;
+
+        img {
+            padding-left: 10rem;
+        }
+    }
+
+    .right-content {
+        width: 30%;
+        height: 100%;
+
+        h1 {
+            padding-top: 10rem;
+            font-size: 3rem;
+            font-weight: 600;
+            padding-bottom: 5rem
+        }
+
+        p {
+            font-weight: 600;
+            color: #929191;
+            line-height: 2.5rem;
+            text-align: justify;
+        }
+
+    }
+}

@@ -1,0 +1,138 @@
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-content {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+
+    background: #31124b;
+
+    .logo-footer {
+        width: 33%;
+        padding-left: 15rem;
+
+        .logo-footer-top {
+            width: 100%;
+            margin-left: -2rem;
+
+            img {}
+
+            h1 {
+                font-size: 30px;
+                color: #f4f4f8;
+                font-weight: 900;
+                text-transform: uppercase;
+                margin-left: 4rem;
+                margin-top: -2rem;
+            }
+        }
+
+        .logo-footer-center {
+            width: 100%;
+
+            p {
+                font-size: 14px;
+                font-weight: 600;
+                color: #FFFFFF;
+                line-height: 3rem;
+                margin-top: 3rem;
+            }
+        }
+
+        .logo-footer-bottom {}
+    }
+
+    .infor-footer {
+        width: 33%;
+        padding-left: 3rem;
+
+        h3 {
+            color: #fFFFFF;
+            text-transform: uppercase;
+            padding-top: 4rem;
+        }
+
+        .infor-footer-item {
+            padding-top: 3rem;
+            display: flex;
+
+        }
+
+        .img-item {
+            img {}
+
+        }
+
+        .title-item {
+            padding-left: 2rem;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #FFFFFF;
+
+            }
+
+            span {
+                color: peru;
+            }
+        }
+    }
+
+    .tags-footer {
+        width: 33%;
+
+        h3 {
+            color: #fFFFFF;
+            text-transform: uppercase;
+            padding-top: 4rem;
+            margin-left: 2rem;
+
+
+        }
+
+        .btn-tags {
+            button {
+                width:  13rem;
+                height: 3.5rem;
+                border: solid 1px #fa9e1b;
+                background: none;
+                color: #FFFFFF;
+                margin-left: 2rem;
+                 margin-top: 1.6rem;
+                &:hover{
+                    background: #fa9e1b;
+                }
+            }
+        }
+    }
+
+    .contact-footer {
+        width: 33%;
+        h3{
+            color: #fFFFFF;
+            text-transform: uppercase;
+            padding-top: 4rem;
+            font-weight: bold;
+            margin-left: 2rem;
+        }
+         ul{
+         li{
+                color: #fFFFFF;
+            text-transform: none;
+            padding-top: 2rem;
+            }
+        }
+        
+    }
+}
+
+// .infor-footer-item {
+//     display: flex;
+// }

@@ -1,0 +1,85 @@
+.statistic {
+  width: 100%;
+  height: 55rem;
+}
+  .statistic__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.statistic__box h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .statistic__text {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .statistic__content {
+    width: 100%;
+    margin-top: 50px;
+  }
+.stats__bar {
+    width: 60%;
+}
+.stats__year {
+    width: 55px;
+    left: 43%;
+    color: #fa9e1b;
+    font-weight: bold;
+}
+// .stats__year i {
+//     font-size: 20px;
+//     margin-left: 7px;
+//     top: 50%;
+//     /* padding-top: 10px */
+//     position: absolute;
+//   }
+.stats__bar1 {
+    width: 100%;
+    height: 15px;
+    border: 1px solid;
+    top: 30%;
+    border-radius: 25px;
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);
+}
+.stats__bar2 {
+    width: 0;
+    top: -1px;
+    height: 14px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);
+    -webkit-transition: width 4.5s ease !important;
+    -moz-transition: width 4.5s ease !important;
+    -o-transition: width 4.5s ease !important;
+    transition: width 4.5s ease !important;
+  }
+.stats {
+    width: 17%;
+    display: flex;
+  }
+  .stats__icon {
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+  }
+  .stats__icon i {
+    font-size: 35px;
+    line-height: 45px;
+    color: #fa9e1b;
+  }
+  .stats__number {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d2c2c;
+  }
+  .stats__type {
+    font-size: 14px;
+    font-weight: 600;
+    color: #929191;
+  }
+  

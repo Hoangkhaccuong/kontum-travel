@@ -1,0 +1,192 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.action{
+    color: #fa9e1b !important;
+}
+.home-header-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 10rem;
+    background: #350a4e;
+
+    .home-header-content {
+        width: auto;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 25%;
+            display: flex;
+            cursor: pointer;
+
+            .header-logo {
+                background: url('../../assets/logo.png') no-repeat;
+                height: 50%;
+                width: 50%;
+                margin-left: 13rem;
+                margin-top: 2rem;
+
+            }
+
+            .header-logo1 {
+                font-size: 30px;
+                color: #f4f4f8;
+                font-weight: 800;
+                text-transform: uppercase;
+                margin-right: 0;
+                width: 314%;
+                margin-top: 3.8rem;
+            }
+        }
+
+        .center-content {
+            width: 55%;
+            color: black;
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 5rem;
+            margin-top: 4rem;
+
+            .child-content {
+                font-family: "Open Sans", sans-serif;
+                font-size: 13px;
+                font-weight: 600;
+                color: #FFFFFF;
+                margin-left: -3rem;
+                margin-right: -13rem;
+                text-transform: uppercase;
+                cursor: pointer;
+                &:hover{
+                    border: 1px solid #fa9e1b ;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    height: 5rem;
+                }
+
+
+            }
+        }
+
+        .right-content {
+            width: 20%;
+            margin-top: 4rem;
+            display: flex;
+
+            .search__item {
+                color: #FFffff;
+                background: red;
+                height: 39%;
+                width: 10%;
+                text-align: center;
+                cursor: pointer;
+                margin-left: -32px;
+
+            }
+            .language-vn{
+                color: #FFffff;
+                margin-left: 1.5rem;
+                cursor: pointer;
+            }
+            .language-en{
+                color: #FFffff;
+                margin-left: 1.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    width: auto;
+    height: 55rem;
+    background-size: cover;
+    background: url('../../assets/mangden1.jpg') center no-repeat;
+
+    .banner-top {
+
+        h1 {
+            font-size: 112px;
+            font-weight: 500;
+            color: #e0cfcf;
+            font-style: italic;
+            text-align: center;
+            padding-top: 14rem;
+            padding-bottom: 4rem;
+        }
+    }
+
+    // .banner-buttom {
+
+    //     button {
+    //         width: 13rem;
+    //         height: 4rem;
+    //         font-size: 1.5rem;
+    //         font-weight: 700;
+    //         background: linear-gradient(to right, #FF6633, #3333FF, #FF6633);
+    //         border: 1px solid;
+    //         border-radius: 2rem;
+    //         display: block;
+    //         margin: 0 auto;
+    //     }
+    // }
+}
+
+.home-header-booking {
+    height: 15rem;
+    width: auto;
+
+    .booking-top {
+        .booking-top-list {
+            list-style: none;
+            display: flex;
+            border: 1px solid;
+            justify-content: space-around;
+            width: 85%;
+            margin: 0 auto;
+            height: 11rem;
+            border-radius: 7rem;
+            border-bottom: none;
+            background: #ffa500;
+            position: absolute;
+            top: 54rem;
+            left: 10rem;
+            z-index: 1;
+            padding-top: 4.5rem;
+        }
+    }
+
+    .booking-bottom {
+        height: 15rem;
+        background: linear-gradient(to right, #fa9e1b, #8d4fff);
+
+        .bottom-list {}
+    }
+}
+
+.home-header-add {
+    width: 100%;
+    height: 100rem;
+    .add-top{
+
+    }
+    .add-bottom{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .add-bottom-list{
+
+        }
+    }
+}

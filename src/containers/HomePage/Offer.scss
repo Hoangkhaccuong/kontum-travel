@@ -1,0 +1,98 @@
+html{
+    font-size: 62.5%;
+}
+.offer-container{
+    width: 100%;
+    height: 105rem;
+    background: #f3f6f9;
+    .offer-container-content{
+        width: 100%;
+        height: 100%;
+        .top-content{
+            width: 100%;
+            height: 18rem;
+            text-align: center;
+            h2{
+                font-size: 3rem;
+                font-weight: bold;
+                padding-top: 8rem;
+            }
+        }
+        .center-content, .bottom-content{
+            width: 100%;
+            height: 36rem;
+            // background: red;
+            display: flex;
+            .mangden-content{
+                display: flex;
+                margin-left: 10rem;
+                width: 100%;
+                .mangden-left{
+                    width: 50%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mangden-right{
+                    width: 35%;
+                    height: 100%;
+                    margin-left: 4rem;
+                    h2{
+                        font-size: 3.4rem;
+                        font-weight: bold;
+                        color: #eda84a;
+                    }
+                    p{
+                        font-size: 1.7rem;
+                        color: #7d7a7a;
+                        margin: 4rem 0;
+                    }
+                    img{
+                        margin-right:2rem;
+                    }
+                }
+            }
+            .dakbla-content{
+                display: flex;
+                width: 100%;
+                margin-right: 2rem;
+                .dakbla-left{
+                    width: 50%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .dakbla-right{
+                    width: 35%;
+                    height: 100%;
+                    margin-left: 4rem;
+                    h2{
+                        font-size: 3.4rem;
+                        font-weight: bold;
+                        color:    #eda84a;
+                    }
+                    p{
+                        font-size: 1.7rem;
+                        color: #7d7a7a;
+                        margin: 4rem 0;
+                    }
+                    img{
+                        margin-right:2rem;
+                    }
+                }
+            }
+
+        }
+        .bottom-content{
+            width: 100%;
+            height: 36rem;
+            margin: 5rem 0;
+            // background: yellow;
+
+        }
+    }
+}
