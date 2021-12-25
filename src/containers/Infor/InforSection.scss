@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+}
+
+.danhmuc {
+    margin-top: 5rem;
+}
+ul.time-line li img {
+    width: 75px;
+}
+
+.infor-container {
+    width: 100%;
+    height: 160rem;
+
+    .infor-container-content,.infor-container-content1 {
+        width: 100%;
+        height: 60rem;
+        margin-top: 12rem;
+        display: flex;
+
+        .infor-container-left {
+            width: 70%;
+            height: 100%;
+            padding-left: 17rem;
+
+            img {
+
+                width: 86%;
+
+            }
+
+            ul {
+                display: flex;
+                justify-content: start;
+                margin-left: -3rem;
+                margin-top: 1rem;
+            }
+
+            li {
+                margin: 0 1rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                width: 87%;
+            }
+
+            span {
+                text-transform: uppercase;
+                color: #fa9e1b;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .infor-container-right {
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+
+        }
+
+        .time-line1,.time-line2 {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5rem;
+            margin-left: -1rem;
+
+            .line-one {
+                img{
+                    width: 75px;
+                } 
+              
+            }
+
+            .line-two {
+                img{
+                    width: 75px;
+                } 
+            }
+
+            .line-three {
+                img{
+                    width: 75px;
+                } 
+            }
+        }
+        .time-line2{
+            margin-top: 2rem;
+            margin-left: -3rem;
+
+        }
+
+        ul {
+            display: block;
+            margin-left: -2rem;
+
+            li {
+                color: #929191;
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

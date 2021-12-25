@@ -1,8 +1,10 @@
 export const path = {
     HOME: '/',
     HOMEPAGE:'/home',
-    INTRODUCE:'/gioithieu',
-    PREFERENTIAL:'/uudai',
+    INTRODUCE:'/gioi-thieu',
+    PREFERENTIAL:'/uu-dai',
+    INFORMATION:'/tin-tuc',
+    CONTACT:'/lien-he',
     LOGIN: '/login',
     LOG_OUT: '/logout',
     SYSTEM: '/system'

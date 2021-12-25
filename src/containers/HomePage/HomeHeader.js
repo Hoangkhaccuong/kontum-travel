@@ -19,28 +19,30 @@ import { BrowserRouter, Link } from 'react-router-dom';
             <>
             <div className='home-header-container'>
                <div className='home-header-content'>
-                   <div className='left-content'>
-                       <div className='header-logo'>
+              <div className='left-content'>
+               <div className='header-logo'>
                        </div>
                        <div className='header-logo1'>
-                           Kon Tum
+                       <Link to='home'>     Kon Tum </Link>
                        </div>
+                      
                    </div>
+                   
                    <div className='center-content'>
                         <div className='child-content'>
                        <Link to='home'> <FormattedMessage id="home-header.HomePage"/> </Link>
                         </div>
                         <div className='child-content'>
-                       <Link to="/gioithieu"><FormattedMessage id="home-header.Introduce"/> </Link>
+                       <Link to="/gioi-thieu"><FormattedMessage id="home-header.Introduce"/> </Link>
                         </div>
                         <div className='child-content'>
-                        <Link to='/uudai'><FormattedMessage id="home-header.Preferential"/> </Link>
+                        <Link to='/uu-dai'><FormattedMessage id="home-header.Preferential"/> </Link>
                         </div>
                         <div className='child-content'>
-                        <FormattedMessage id="home-header.Information"/> 
+                        <Link to='/tin-tuc'><FormattedMessage id="home-header.Information"/> </Link>
                         </div>
                         <div className='child-content'>
-                        <FormattedMessage id="home-header.Contact"/>
+                        <Link to='/lien-he'><FormattedMessage id="home-header.Contact"/></Link>
                         
                         </div>
                    </div>

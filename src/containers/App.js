@@ -22,6 +22,8 @@ import ConfirmModal from '../components/ConfirmModal';
 import HomePage from '../containers/HomePage/HomePage'
 import Introduce from '../containers/Introduce/Introduce'
 import CustomScrollbars from '../components/CustomScrollbars';
+import Infor from './Infor/Infor';
+import Contact from './Contact/Contact';
 
 class App extends Component {
 
@@ -58,9 +60,11 @@ class App extends Component {
                                 <Route path={path.HOMEPAGE}  component={(HomePage)} />
                                 <Route path={path.INTRODUCE}  component={(Introduce)} />
                                 <Route path={path.PREFERENTIAL}  component={(Pereferential)} />
-                                
+                                <Route path={path.INFORMATION}  component={(Infor)} />
+                                <Route path={path.CONTACT}  component={(Contact)} />
                                 <Route path={path.LOGIN} component={userIsNotAuthenticated(Login)} />
                                 <Route path={path.SYSTEM} component={userIsAuthenticated(System)} />
+                         
                             </Switch>
                             </CustomScrollbars>
                         </div>

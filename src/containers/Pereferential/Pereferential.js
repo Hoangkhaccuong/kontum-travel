@@ -4,7 +4,6 @@ import HomeHeader from '../HomePage/HomeHeader';
 import offers_slide from '../../assets/offers_slide.jpg'
 import Footer from '../HomePage/Footer';
 import IntroProduct from '../Introduce/IntroProduct'
-import SearchAdd from './SearchAdd';
 import Content from './Content';
 class Pereferential extends Component {
 
@@ -13,8 +12,8 @@ class Pereferential extends Component {
             <div>
                 <HomeHeader/>
                 <IntroProduct title="Ưu Đãi" anh={offers_slide}/>
-                <SearchAdd/>
                 <Content/>
+                {/* <Footer/> */}
                 {/* <Banners/>
                 <TravelAdd/>
                 <Section></Section>
